@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Application.Interfaces;
+using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+
+
+namespace Infrastructure.Repositories
+{
+    public class Categories_catalogRepository : GenericRepository<Categories_catalog>, ICategories_catalogRepository
+    {
+        protected readonly AppDbContext _context;
+
+        public PlayerRepository(AppDbContext context) : base(context)
+        {
+            _context = context;
+            
+        }
+        
+    }
+}
