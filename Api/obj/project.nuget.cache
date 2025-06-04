@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MOYobq3Agys=",
+  "dgSpecHash": "xMt8jApCMJI=",
   "success": true,
-  "projectFilePath": "/home/camper/Escritorio/SurverySystem/Api/Api.csproj",
+  "projectFilePath": "/home/camper/Escritorio/SurverySystem-1/Api/Api.csproj",
   "expectedPackageFiles": [
     "/home/camper/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/camper/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GUi8kflNTC4=",
+  "dgSpecHash": "V1iq6i7gHug=",
   "success": true,
-  "projectFilePath": "/home/camper/Escritorio/SurverySystem/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/home/camper/Escritorio/SurverySystem-1/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/camper/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/camper/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

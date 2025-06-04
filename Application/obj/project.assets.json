@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj",
+      "projectUniqueName": "/home/camper/Escritorio/SurverySystem-1/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj",
+      "projectPath": "/home/camper/Escritorio/SurverySystem-1/Application/Application.csproj",
       "packagesPath": "/home/camper/.nuget/packages/",
-      "outputPath": "/home/camper/Escritorio/SurverySystem/Application/obj/",
+      "outputPath": "/home/camper/Escritorio/SurverySystem-1/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/camper/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj": {
-              "projectPath": "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj"
+            "/home/camper/Escritorio/SurverySystem-1/Domain/Domain.csproj": {
+              "projectPath": "/home/camper/Escritorio/SurverySystem-1/Domain/Domain.csproj"
             }
           }
         }
