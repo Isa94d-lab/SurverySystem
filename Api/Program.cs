@@ -6,11 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigureCors();
 builder.Services.AddControllers();
+builder.Services.AddInfrastructure();
 builder.Services.AddApplicationServices();
 builder.Services.ConfigureCors(); 
 
@@ -20,9 +22,11 @@ builder.Services.AddOpenApi();
 // Registra la conexion 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
+    
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseNpgsql(connectionString);
 });
+builder.Services.AddInfrastructure();
 
 
 var app = builder.Build();

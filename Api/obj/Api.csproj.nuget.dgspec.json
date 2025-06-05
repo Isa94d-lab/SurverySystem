@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/camper/Escritorio/SurverySystem-2/Api/Api.csproj": {}
+    "/home/camper/Escritorio/SurverySystem/Api/Api.csproj": {}
   },
   "projects": {
-    "/home/camper/Escritorio/SurverySystem-2/Api/Api.csproj": {
+    "/home/camper/Escritorio/SurverySystem/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/camper/Escritorio/SurverySystem-2/Api/Api.csproj",
+        "projectUniqueName": "/home/camper/Escritorio/SurverySystem/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/home/camper/Escritorio/SurverySystem-2/Api/Api.csproj",
+        "projectPath": "/home/camper/Escritorio/SurverySystem/Api/Api.csproj",
         "packagesPath": "/home/camper/.nuget/packages/",
-        "outputPath": "/home/camper/Escritorio/SurverySystem-2/Api/obj/",
+        "outputPath": "/home/camper/Escritorio/SurverySystem/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/camper/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj": {
-                "projectPath": "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj"
+              "/home/camper/Escritorio/SurverySystem/Application/Application.csproj": {
+                "projectPath": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj"
               },
-              "/home/camper/Escritorio/SurverySystem-2/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/camper/Escritorio/SurverySystem-2/Infrastructure/Infrastructure.csproj"
+              "/home/camper/Escritorio/SurverySystem/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/camper/Escritorio/SurverySystem/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -59,7 +59,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-preview.5.*, )"
+              "version": "[9.0.0-preview.3.24172.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -89,14 +89,14 @@
         }
       }
     },
-    "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj": {
+    "/home/camper/Escritorio/SurverySystem/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj",
+        "projectUniqueName": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj",
+        "projectPath": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj",
         "packagesPath": "/home/camper/.nuget/packages/",
-        "outputPath": "/home/camper/Escritorio/SurverySystem-2/Application/obj/",
+        "outputPath": "/home/camper/Escritorio/SurverySystem/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/camper/.nuget/NuGet/NuGet.Config"
@@ -111,8 +111,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj": {
-                "projectPath": "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj"
+              "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj": {
+                "projectPath": "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj": {
+    "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj",
+        "projectUniqueName": "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj",
+        "projectPath": "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj",
         "packagesPath": "/home/camper/.nuget/packages/",
-        "outputPath": "/home/camper/Escritorio/SurverySystem-2/Domain/obj/",
+        "outputPath": "/home/camper/Escritorio/SurverySystem/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/camper/.nuget/NuGet/NuGet.Config"
@@ -211,14 +211,14 @@
         }
       }
     },
-    "/home/camper/Escritorio/SurverySystem-2/Infrastructure/Infrastructure.csproj": {
+    "/home/camper/Escritorio/SurverySystem/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/camper/Escritorio/SurverySystem-2/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/camper/Escritorio/SurverySystem/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/camper/Escritorio/SurverySystem-2/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/camper/Escritorio/SurverySystem/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/camper/.nuget/packages/",
-        "outputPath": "/home/camper/Escritorio/SurverySystem-2/Infrastructure/obj/",
+        "outputPath": "/home/camper/Escritorio/SurverySystem/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/camper/.nuget/NuGet/NuGet.Config"
@@ -233,11 +233,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj": {
-                "projectPath": "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj"
+              "/home/camper/Escritorio/SurverySystem/Application/Application.csproj": {
+                "projectPath": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj"
               },
-              "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj": {
-                "projectPath": "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj"
+              "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj": {
+                "projectPath": "/home/camper/Escritorio/SurverySystem/Domain/Domain.csproj"
               }
             }
           }
@@ -260,7 +260,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0-preview.5.*, )"
+              "version": "[9.0.0-preview.3.24172.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -274,9 +274,13 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[9.0.0-preview.5.*, )"
+              "version": "[9.0.0-preview.3, )"
             }
           },
           "imports": [
