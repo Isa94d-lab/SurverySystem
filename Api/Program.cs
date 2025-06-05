@@ -1,4 +1,5 @@
 using System;
+using Api.Extensions;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.ConfigureCors();
+builder.Services.AddAplicacionServices();
 
 // Add services to the container.
 builder.Services.AddOpenApi();
@@ -26,6 +30,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 

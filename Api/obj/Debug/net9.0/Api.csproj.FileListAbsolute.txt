@@ -222,3 +222,6 @@
 /home/camper/Escritorio/SurverySystem-1/Api/obj/Debug/net9.0/Api.csproj.Up2Date
 /home/camper/Escritorio/SurverySystem-1/Api/obj/Debug/net9.0/Api.genruntimeconfig.cache
 /home/camper/Escritorio/SurverySystem-1/Api/obj/Debug/net9.0/ref/Api.dll
+D:\1 Usuario\Desktop\SurverySystem\API\obj\Debug\net9.0\Api.dll
+D:\1 Usuario\Desktop\SurverySystem\API\obj\Debug\net9.0\refint\Api.dll
+D:\1 Usuario\Desktop\SurverySystem\API\obj\Debug\net9.0\Api.pdb

@@ -7,7 +7,7 @@ using Domain.Entities;
 
 namespace Application.Interfaces
 {
-    public class ICategories_catalog : IGenericRepository<Categories_catalog>
+    public interface ICategories_catalogRepository : IGenericRepository<Categories_catalog>
     {
         
     }
