@@ -10,7 +10,8 @@ using Microsoft.Extensions.Hosting;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigureCors();
-builder.Services.AddAplicacionServices();
+builder.Services.AddApplicationServices();
+builder.Services.ConfigureCors(); 
 
 // Add services to the container.
 builder.Services.AddOpenApi();

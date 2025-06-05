@@ -7,7 +7,8 @@ using Infrastructure.Repositories;
 
 namespace Api.Extensions
 {
-    public static void ConfigureCors(this IServiceCollection services) =>
+    public static class AddApplicationServicesExtensions{
+        public static void ConfigureCors(this IServiceCollection services) =>
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder =>
@@ -18,6 +19,8 @@ namespace Api.Extensions
         public static void AddApplicationServices(this IServiceCollection services)
         {
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            services.AddScoped(ICategories_catalogRepository, Categories_catalogRepository);
+            services.AddScoped(typeof(ICategories_catalogRepository), typeof(Categories_catalogRepository));
         }
+
+    }
 }

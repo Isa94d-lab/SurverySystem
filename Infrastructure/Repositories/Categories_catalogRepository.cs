@@ -15,7 +15,7 @@ namespace Infrastructure.Repositories
     {
         protected readonly AppDbContext _context;
 
-        public PlayerRepository(AppDbContext context) : base(context)
+        public Categories_catalogRepository(AppDbContext context) : base(context)
         {
             _context = context;
             
