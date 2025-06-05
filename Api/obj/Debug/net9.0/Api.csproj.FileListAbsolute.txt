@@ -353,3 +353,6 @@ D:/1 Usuario/Desktop/SurverySystem/API/obj/Debug/net9.0/Api.pdb
 /home/camper/Escritorio/SurverySystem-2/Api/obj/Debug/net9.0/Api.csproj.Up2Date
 /home/camper/Escritorio/SurverySystem-2/Api/obj/Debug/net9.0/Api.genruntimeconfig.cache
 /home/camper/Escritorio/SurverySystem-2/Api/obj/Debug/net9.0/ref/Api.dll
+/home/camper/Escritorio/SurverySystem-2/Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/camper/Escritorio/SurverySystem-2/Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/camper/Escritorio/SurverySystem-2/Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll

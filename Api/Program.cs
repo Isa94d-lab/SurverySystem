@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigureCors();
+builder.Services.AddControllers();
 builder.Services.AddApplicationServices();
 builder.Services.ConfigureCors(); 
 
@@ -25,11 +26,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 var app = builder.Build();
+app.MapControllers();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseCors("CorsPolicy");
