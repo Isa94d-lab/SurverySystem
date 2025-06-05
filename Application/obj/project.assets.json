@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/camper/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj",
+      "projectUniqueName": "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/camper/Escritorio/SurverySystem/Application/Application.csproj",
+      "projectPath": "/home/camper/Escritorio/SurverySystem-2/Application/Application.csproj",
       "packagesPath": "/home/camper/.nuget/packages/",
-      "outputPath": "/home/camper/Escritorio/SurverySystem/Application/obj/",
+      "outputPath": "/home/camper/Escritorio/SurverySystem-2/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/camper/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj": {
+              "projectPath": "/home/camper/Escritorio/SurverySystem-2/Domain/Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
