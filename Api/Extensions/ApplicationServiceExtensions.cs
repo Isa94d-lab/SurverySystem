@@ -13,8 +13,8 @@ namespace Api.Extensions
             {
                 options.AddPolicy("CorsPolicy", builder =>
                     builder.AllowAnyOrigin()   //WithOrigins("https://dominio.com")
-                    .AllowAnyMethod()          //WithMethods("GET","POST")
-                    .AllowAnyHeader());        //WithHeaders("accept","content-type")
+                    .AllowAnyMethod()          //WithMethods("GET","POST")()
+                    .AllowAnyHeader());        //WithHeaders("accept","content-type"))
             });
         public static void AddApplicationServices(this IServiceCollection services)
         {

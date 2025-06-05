@@ -18,7 +18,6 @@ namespace Infrastructure.Repositories
         public Categories_catalogRepository(AppDbContext context) : base(context)
         {
             _context = context;
-            
         }
         
     }
