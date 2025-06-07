@@ -10,11 +10,17 @@ namespace Infrastructure.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork,IDisposable
     {
-        private ICategories_catalogRepository _categories_catalog;
+        private ICategories_catalogRepository? _categories_catalog;
 
         // Add ->
-        private ICategory_optionsRepository _category_options; 
+        private ICategory_optionsRepository? _category_options;
         // ----
+
+
+        // Add ->
+        private IChaptersRepository? _chapters;
+        // ----
+        
         
         private readonly AppDbContext _context;
 
@@ -35,7 +41,7 @@ namespace Infrastructure.UnitOfWork
 
         // Add ->
 
-        public ICategory_optionsRepository category_options
+        public ICategory_optionsRepository Category_options
         {
             get
             {
@@ -47,6 +53,23 @@ namespace Infrastructure.UnitOfWork
             }
         }
         // ----
+
+
+
+         public IChaptersRepository Chapters
+        {
+            get
+            {
+                if (_chapters == null)
+                {
+                    _chapters = new ChaptersRepository(_context);
+                }
+                return _chapters;
+            }
+        }
+        // ----
+
+
 
         public async Task<int> SaveAsync()
         {

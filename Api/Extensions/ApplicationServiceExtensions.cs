@@ -20,6 +20,7 @@ namespace Api.Extensions
         {
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(ICategories_catalogRepository), typeof(Categories_catalogRepository));
+            services.AddScoped(typeof(ICategories_catalogRepository), typeof(Category_optionsRepository));
         }
 
     }

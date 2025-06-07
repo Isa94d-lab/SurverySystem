@@ -12,7 +12,7 @@ namespace Infrastructure
             services.AddScoped<IUnitOfWork, Infrastructure.UnitOfWork.UnitOfWork>();
             services.AddScoped<ICategories_catalogRepository, Categories_catalogRepository>();
             services.AddScoped<ICategory_optionsRepository, Category_optionsRepository>();
-
+            services.AddScoped<IChaptersRepository, ChaptersRepository>();
         }
     }
 }

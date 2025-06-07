@@ -10,29 +10,25 @@ using Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configura los servicios
 builder.Services.ConfigureCors();
 builder.Services.AddControllers();
-builder.Services.AddInfrastructure();
 builder.Services.AddApplicationServices();
-builder.Services.ConfigureCors(); 
-
-// Add services to the container.
 builder.Services.AddOpenApi();
 
-// Registra la conexion 
+// 👉 Primero: registra la conexión a la base de datos
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseNpgsql(connectionString);
 });
+
+// 👉 Luego: agrega los servicios de infraestructura (repositorios, UoW, etc.)
 builder.Services.AddInfrastructure();
 
-
 var app = builder.Build();
-app.MapControllers();
 
-// Configure the HTTP request pipeline.
+// Configura el pipeline HTTP
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -41,13 +37,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("CorsPolicy");
-
 app.UseHttpsRedirection();
-
-
-
+app.MapControllers();
 app.Run();
 
+// Este record es solo de ejemplo, puedes eliminarlo si no lo usas
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
