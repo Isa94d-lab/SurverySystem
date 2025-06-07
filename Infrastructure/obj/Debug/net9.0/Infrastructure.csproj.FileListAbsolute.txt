@@ -87,3 +87,12 @@ D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\refint\Infr
 D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

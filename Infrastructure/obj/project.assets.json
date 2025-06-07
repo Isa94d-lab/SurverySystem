@@ -2318,11 +2318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Usuario\\SurverySystem\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\SurverySystem\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2337,11 +2337,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Application\\Application.csproj": {
-              "projectPath": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Application\\Application.csproj"
+            "C:\\Users\\Usuario\\SurverySystem\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\SurverySystem\\Application\\Application.csproj"
             },
-            "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Domain\\Domain.csproj"
+            "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj"
             }
           }
         }

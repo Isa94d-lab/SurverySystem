@@ -355,3 +355,6 @@ D:\1 Usuario\Desktop\SurverySystem-1\Api\obj\Debug\net9.0\refint\Api.dll
 D:\1 Usuario\Desktop\SurverySystem-1\Api\obj\Debug\net9.0\Api.pdb
 D:\1 Usuario\Desktop\SurverySystem-1\Api\obj\Debug\net9.0\Api.genruntimeconfig.cache
 D:\1 Usuario\Desktop\SurverySystem-1\Api\obj\Debug\net9.0\ref\Api.dll
+C:\Users\Usuario\SurverySystem\Api\obj\Debug\net9.0\Api.dll
+C:\Users\Usuario\SurverySystem\Api\obj\Debug\net9.0\refint\Api.dll
+C:\Users\Usuario\SurverySystem\Api\obj\Debug\net9.0\Api.pdb

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\1 Usuario\\Desktop\\SurverySystem-1\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\SurverySystem\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
