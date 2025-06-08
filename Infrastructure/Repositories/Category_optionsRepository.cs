@@ -11,7 +11,7 @@ namespace Infrastructure.Repositories
 {
     public class Category_optionsRepository : GenericRepository<Category_options>, ICategory_optionsRepository
     {
-        private readonly AppDbContext _context;
+        protected readonly AppDbContext _context;
 
         public Category_optionsRepository(AppDbContext context) : base(context)
         {

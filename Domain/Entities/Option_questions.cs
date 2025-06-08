@@ -10,13 +10,14 @@ namespace Domain.Entities
         public int Id { get; set; }
         public DateTime Created_at { get; set; }
         public int Option_id { get; set; }
-        public Options_response Options_Response { get; set; }
+        public Options_response? Options_Response { get; set; }
         public int Optioncatalog_id { get; set; }
-        public Categories_catalog Categories_Catalog { get; set; }
+        public Categories_catalog? Categories_Catalog { get; set; }
         public int Optionquestions_id { get; set; }
-        public Option_questions Option_Questions { get; set; }
+        public Option_questions? Option_Questions { get; set; }
+        public ICollection<Option_questions>? InverseOption_Questions { get; set; }
         public int Subquestion_id { get; set; }
-        public Sub_questions Sub_Questions { get; set; }
+        public Sub_questions? Sub_Questions { get; set; }
         public DateTime Updated_at { get; set; }
         public string? Comment_optionres { get; set; }
         public string? Numberoption { get; set; }

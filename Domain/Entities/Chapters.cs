@@ -10,7 +10,7 @@ namespace Domain.Entities
         public int Id { get; set; }
         public DateTime Created_at { get; set; }
         public DateTime Updated_at { get; set; }
-        public int survey_id { get; set; }
+        public int Survey_id { get; set; }
         public Surveys? Surveys { get; set; }
         public string? Componenthtml { get; set; }
         public string? Componentreact { get; set; }

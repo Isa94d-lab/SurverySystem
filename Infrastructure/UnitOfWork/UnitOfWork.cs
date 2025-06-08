@@ -11,16 +11,12 @@ namespace Infrastructure.UnitOfWork
     public class UnitOfWork : IUnitOfWork,IDisposable
     {
         private ICategories_catalogRepository? _categories_catalog;
-
-        // Add ->
         private ICategory_optionsRepository? _category_options;
-        // ----
-
-
-        // Add ->
         private IChaptersRepository? _chapters;
-        // ----
-        
+
+        // Add 
+        private ISurveysRepository? _surveys;
+        // ---
         
         private readonly AppDbContext _context;
 
@@ -28,7 +24,9 @@ namespace Infrastructure.UnitOfWork
         {
             _context = context;
         }
-        public ICategories_catalogRepository Categories_catalogs{
+        
+        public ICategories_catalogRepository Categories_catalogs
+        {
             get
             {
                 if (_categories_catalog == null)
@@ -38,8 +36,6 @@ namespace Infrastructure.UnitOfWork
                 return _categories_catalog;
             }
         }
-
-        // Add ->
 
         public ICategory_optionsRepository Category_options
         {
@@ -52,11 +48,9 @@ namespace Infrastructure.UnitOfWork
                 return _category_options;
             }
         }
-        // ----
 
 
-
-         public IChaptersRepository Chapters
+        public IChaptersRepository Chapters
         {
             get
             {
@@ -67,10 +61,23 @@ namespace Infrastructure.UnitOfWork
                 return _chapters;
             }
         }
-        // ----
 
 
+        // Add
+        public ISurveysRepository Surveys
+        {
+            get
+            {
+                if (_surveys == null)
+                {
+                    _surveys = new SurveysRepository(_context);
+                }
+                return _surveys;
+            }
+        }
+        // ---
 
+        
         public async Task<int> SaveAsync()
         {
             return await _context.SaveChangesAsync();
