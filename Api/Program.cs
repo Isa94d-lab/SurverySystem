@@ -1,4 +1,7 @@
 using System;
+// New
+using System.Reflection;
+// ---
 using Api.Extensions;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
@@ -11,19 +14,24 @@ using Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 // Configura los servicios
+
+// New
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
+// ---
+
 builder.Services.ConfigureCors();
 builder.Services.AddControllers();
 builder.Services.AddApplicationServices();
 builder.Services.AddOpenApi();
 
-// 👉 Primero: registra la conexión a la base de datos
+// Primero: registra la conexión a la base de datos
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseNpgsql(connectionString);
 });
 
-// 👉 Luego: agrega los servicios de infraestructura (repositorios, UoW, etc.)
+// Luego: agrega los servicios de infraestructura (repositorios, UoW, etc.)
 builder.Services.AddInfrastructure();
 
 var app = builder.Build();

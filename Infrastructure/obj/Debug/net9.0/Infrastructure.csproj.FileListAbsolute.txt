@@ -67,32 +67,35 @@ D:/1 Usuario/Desktop/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructur
 /home/camper/Escritorio/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
 /home/camper/Escritorio/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.genruntimeconfig.cache
 /home/camper/Escritorio/SurverySystem/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Application.dll
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Domain.dll
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Domain.pdb
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\bin\Debug\net9.0\Application.pdb
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
-D:\1 Usuario\Desktop\SurverySystem-1\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\SurverySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Infrastructure.deps.json
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Infrastructure.runtimeconfig.json
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Infrastructure.dll
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Infrastructure.pdb
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Application.dll
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Domain.dll
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Domain.pdb
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/bin/Debug/net9.0/Application.pdb
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.CoreCompileInputs.cache
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.sourcelink.json
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastr.15EFFBFE.Up2Date
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.dll
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/Infrastructure.genruntimeconfig.cache
+D:/1 Usuario/Desktop/SurverySystem-1/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.dll
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.CoreCompileInputs.cache
+C:/Users/Usuario/SurverySystem/Infrastructure/obj/Debug/net9.0/Infrastructure.sourcelink.json
+/home/camper/Escritorio/SurverySystem-4/Infrastructure/obj/Debug/net9.0/Infrastructure.dll
+/home/camper/Escritorio/SurverySystem-4/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
+/home/camper/Escritorio/SurverySystem-4/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb

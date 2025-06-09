@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj": {}
+    "/home/camper/Escritorio/SurverySystem-4/Domain/Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj": {
+    "/home/camper/Escritorio/SurverySystem-4/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/camper/Escritorio/SurverySystem-4/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Usuario\\SurverySystem\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\SurverySystem\\Domain\\obj\\",
+        "projectPath": "/home/camper/Escritorio/SurverySystem-4/Domain/Domain.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/Escritorio/SurverySystem-4/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
