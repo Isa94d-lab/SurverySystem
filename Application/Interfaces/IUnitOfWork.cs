@@ -10,8 +10,10 @@ public interface IUnitOfWork
     ICategories_catalogRepository Categories_catalogs { get; }
     ICategory_optionsRepository Category_options { get; }
     IChaptersRepository Chapters { get; }
-    // Add 
     ISurveysRepository Surveys { get; }
+
+    // Add
+    IOptions_responseRepository Options_response { get; }
     // ---
     Task<int> SaveAsync();
 }

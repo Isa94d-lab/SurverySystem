@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Options_response
+    public class Options_response : BaseEntity
     {
         public int Id { get; set; }
         public DateTime Created_at { get; set; }
         public DateTime Updated_at { get; set; }
         public string? Optiontext { get; set; }
+         public ICollection<Option_questions>? Option_Questions { get; set; }
     }
 }

@@ -62,8 +62,6 @@ namespace Infrastructure.UnitOfWork
             }
         }
 
-
-        // Add
         public ISurveysRepository Surveys
         {
             get
@@ -75,9 +73,12 @@ namespace Infrastructure.UnitOfWork
                 return _surveys;
             }
         }
-        // ---
 
-        
+        // Add
+
+        // ----
+
+
         public async Task<int> SaveAsync()
         {
             return await _context.SaveChangesAsync();
