@@ -25,7 +25,7 @@ namespace Infrastructure.Configuration
                 .HasColumnName("updated_at")
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
-            builder.Property(c => c.survey_id)
+            builder.Property(c => c.Survey_id)
                 .HasColumnName("survey_id")
                 .IsRequired();
 
@@ -50,7 +50,7 @@ namespace Infrastructure.Configuration
             // Relaciones
             builder.HasOne(c => c.Surveys)
                 .WithMany(s => s.Chapters)
-                .HasForeignKey(c => c.survey_id);
+                .HasForeignKey(c => c.Survey_id);
         }
     }
 }

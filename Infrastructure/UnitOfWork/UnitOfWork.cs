@@ -14,10 +14,8 @@ namespace Infrastructure.UnitOfWork
         private ICategory_optionsRepository? _category_options;
         private IChaptersRepository? _chapters;
         private ISurveysRepository? _surveys;
-
-        // Add 
+        private IOptions_responseRepository? _options_response;
         private IQuestionsRepository? _questions;
-        // ---
         
         private readonly AppDbContext _context;
 
@@ -74,6 +72,19 @@ namespace Infrastructure.UnitOfWork
                 return _surveys;
             }
         }
+
+        public IOptions_responseRepository Options_response
+        {
+            get
+            {
+                if (_options_response == null)
+                {
+                    _options_response = new Options_responseRepository(_context);
+                }
+                return _options_response;
+            }
+        }
+
 
         // Add
 
