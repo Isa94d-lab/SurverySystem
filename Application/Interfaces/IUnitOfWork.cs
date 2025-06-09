@@ -11,9 +11,10 @@ public interface IUnitOfWork
     ICategory_optionsRepository Category_options { get; }
     IChaptersRepository Chapters { get; }
     ISurveysRepository Surveys { get; }
+    IOptions_responseRepository Options_response { get; }
 
     // Add
-    IOptions_responseRepository Options_response { get; }
+    IQuestionsRepository Questions { get; }
     // ---
     Task<int> SaveAsync();
 }

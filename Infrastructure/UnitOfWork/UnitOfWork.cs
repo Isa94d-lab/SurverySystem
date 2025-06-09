@@ -13,9 +13,10 @@ namespace Infrastructure.UnitOfWork
         private ICategories_catalogRepository? _categories_catalog;
         private ICategory_optionsRepository? _category_options;
         private IChaptersRepository? _chapters;
+        private ISurveysRepository? _surveys;
 
         // Add 
-        private ISurveysRepository? _surveys;
+        private IQuestionsRepository? _questions;
         // ---
         
         private readonly AppDbContext _context;
@@ -75,6 +76,18 @@ namespace Infrastructure.UnitOfWork
         }
 
         // Add
+
+        public IQuestionsRepository Questions
+        {
+            get
+            {
+                if (_questions == null)
+                {
+                    _questions = new QuestionsRepository(_context);
+                }
+                return _questions;
+            }
+        }
 
         // ----
 
