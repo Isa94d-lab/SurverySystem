@@ -17,7 +17,7 @@ namespace Domain.Entities
         public string? Comment_question { get; set; }
         public string? Question_text { get; set; }
 
-        public ICollection<Sub_questions>? Sub_Questions { get; set; }
+        public ICollection<Sub_questions>? Sub_questions { get; set; }
     
 
     }

@@ -16,7 +16,11 @@ namespace Infrastructure.UnitOfWork
         private ISurveysRepository? _surveys;
         private IOptions_responseRepository? _options_response;
         private IQuestionsRepository? _questions;
-        
+
+        // Add
+        private ISub_questionsRepository? _sub_questions;
+        // ---
+
         private readonly AppDbContext _context;
 
         public UnitOfWork(AppDbContext context)
@@ -85,9 +89,6 @@ namespace Infrastructure.UnitOfWork
             }
         }
 
-
-        // Add
-
         public IQuestionsRepository Questions
         {
             get
@@ -100,6 +101,19 @@ namespace Infrastructure.UnitOfWork
             }
         }
 
+
+        // Add
+        public ISub_questionsRepository Sub_questions
+        {
+            get
+            {
+                if (_sub_questions == null)
+                {
+                    _sub_questions = new Sub_questionsRepository(_context);
+                }
+                return _sub_questions;
+            }
+        }
         // ----
 
 
