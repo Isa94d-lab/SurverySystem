@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Sumaryoptions
+    public class Sumaryoptions : BaseEntity
     {
         public int Id { get; set; }
         public int Id_survey { get; set; }

@@ -14,9 +14,10 @@ public interface IUnitOfWork
     IOptions_responseRepository Options_response { get; }
     IQuestionsRepository Questions { get; }
     ISub_questionsRepository Sub_questions { get; }
-
+    IOption_questionsRepository Option_questions { get; }
+    
     // Add
-    public IOption_questionsRepository Option_questions { get; }
+    ISumaryoptionsRepository Sumaryoptions { get; }
     // ---
 
     Task<int> SaveAsync();

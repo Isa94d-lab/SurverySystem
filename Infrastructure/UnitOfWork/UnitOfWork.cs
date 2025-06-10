@@ -17,8 +17,10 @@ namespace Infrastructure.UnitOfWork
         private IOptions_responseRepository? _options_response;
         private IQuestionsRepository? _questions;
         private ISub_questionsRepository? _sub_questions;
-        // Add
         private IOption_questionsRepository? _option_questions;
+
+        // Add 
+        private ISumaryoptionsRepository? _sumaryoptions;
         // ---
 
         private readonly AppDbContext _context;
@@ -113,7 +115,6 @@ namespace Infrastructure.UnitOfWork
             }
         }
 
-        // Add
         public IOption_questionsRepository Option_questions
         {
             get
@@ -126,8 +127,19 @@ namespace Infrastructure.UnitOfWork
             }
         }
 
-
-                // ----
+        // Add
+        public ISumaryoptionsRepository Sumaryoptions
+        {
+            get
+            {
+                if (_sumaryoptions == null)
+                {
+                    _sumaryoptions = new SumaryoptionsRepository(_context);
+                }
+                return _sumaryoptions;
+            }
+        }
+        // ---
 
 
         public async Task<int> SaveAsync()
