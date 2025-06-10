@@ -19,6 +19,5 @@ namespace Domain.Entities
 
         public ICollection<Sub_questions>? Sub_questions { get; set; }
     
-
     }
 }
