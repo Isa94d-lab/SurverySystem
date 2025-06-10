@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Domain.Entities;
 using Infrastructure.Data;
 using Application.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Infrastructure.Repositories
 {

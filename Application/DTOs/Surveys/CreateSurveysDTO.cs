@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs.Surveys
 {
-    public class SurveysCreateDTO
+    public class CreateSurveysDTO
     {
         public string? Componentreact { get; set; }
         public string? Componenthtml { get; set; }

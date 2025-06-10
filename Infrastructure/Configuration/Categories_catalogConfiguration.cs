@@ -35,7 +35,7 @@ namespace Infrastructure.Configuration
                 .HasForeignKey(co => co.Catalogoptions_id);
 
             builder.HasMany(c => c.Option_questions)
-                .WithOne(oq => oq.Categories_Catalog)
+                .WithOne(oq => oq.Categories_catalog)
                 .HasForeignKey(oq => oq.Optioncatalog_id);
         }
     }

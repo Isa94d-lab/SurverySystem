@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs.Option_questions
 {
-    public class Option_questionsDOT.cs
+    public class Option_questionsDOT
     {
         
     }
