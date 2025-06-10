@@ -13,10 +13,11 @@ public interface IUnitOfWork
     ISurveysRepository Surveys { get; }
     IOptions_responseRepository Options_response { get; }
     IQuestionsRepository Questions { get; }
+    ISub_questionsRepository Sub_questions { get; }
 
     // Add
-    ISub_questionsRepository Sub_questions { get; }
+    public IOption_questionsRepository Option_questions { get; }
     // ---
-    
+
     Task<int> SaveAsync();
 }
