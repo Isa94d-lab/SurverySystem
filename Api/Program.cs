@@ -1,4 +1,7 @@
 using System;
+// New
+using System.Reflection;
+// ---
 using Api.Extensions;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
@@ -6,40 +9,47 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.ConfigureCors();
-builder.Services.AddApplicationServices();
-builder.Services.ConfigureCors(); 
+// Configura los servicios
 
-// Add services to the container.
+// New
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
+// ---
+
+builder.Services.ConfigureCors();
+builder.Services.AddControllers();
+builder.Services.AddApplicationServices();
 builder.Services.AddOpenApi();
 
-// Registra la conexion 
+// Primero: registra la conexión a la base de datos
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseNpgsql(connectionString);
 });
 
+// Luego: agrega los servicios de infraestructura (repositorios, UoW, etc.)
+builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configura el pipeline HTTP
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseCors("CorsPolicy");
-
 app.UseHttpsRedirection();
-
-
-
+app.MapControllers();
 app.Run();
 
+// Este record es solo de ejemplo, puedes eliminarlo si no lo usas
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);

@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Surveys
+    public class Surveys : BaseEntity
     {
         public int Id { get; set; }
         public DateTime Created_at { get; set; }
         public DateTime Updated_at { get; set; }
         public string? Componentreact { get; set; }
         public string? Componenthtml { get; set; }
-        public string description { get; set; }
-        public string? instruction { get; set; }
-        public string name { get; set; }
-        public ICollection<Chapters> Chapters { get; set; }
+        public string? Description { get; set; }
+        public string? Instruction { get; set; }
+        public string? Name { get; set; }
+        public ICollection<Chapters>? Chapters { get; set; }
 
     }
 }
