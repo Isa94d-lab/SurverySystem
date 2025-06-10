@@ -4,6 +4,7 @@ using Domain.Entities;
 using Application.DTOs.Chapters;
 using Application.DTOs.Surveys;
 using Application.DTOs.Questions;
+using Application.DTOs.Options_response;
 
 
 
@@ -22,5 +23,8 @@ public class MappingProfiles : Profile
         CreateMap<Chapters, CreateChaptersDTO>().ReverseMap();
         CreateMap<Questions, QuestionsDTO>().ReverseMap();
         CreateMap<Questions, CreateQuestionsDTO>().ReverseMap();
+        CreateMap<Options_response, Options_responseDTO>().ReverseMap();
+        CreateMap<Options_response, CreateOptions_responseDTO>().ReverseMap();
+
     }
 }

@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\1 Usuario\\Downloads\\SurverySystem\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\Application.csproj",
+      "projectPath": "D:\\1 Usuario\\Downloads\\SurverySystem\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\obj\\",
+      "outputPath": "D:\\1 Usuario\\Downloads\\SurverySystem\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\Domain.csproj"
+            "D:\\1 Usuario\\Downloads\\SurverySystem\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\1 Usuario\\Downloads\\SurverySystem\\Domain\\Domain.csproj"
             }
           }
         }
