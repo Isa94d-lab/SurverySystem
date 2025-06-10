@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Application.Interfaces;
 using Domain.Entities;
 using AutoMapper;
+using Application.DTOs.Surveys;
+
 
 namespace Api.Controllers
 {
