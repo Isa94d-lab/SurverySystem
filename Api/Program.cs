@@ -12,6 +12,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Infrastructure;
 
+// Se agrega
+using Api.Extensions;
+// ---
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Configura los servicios
@@ -48,9 +52,23 @@ if (app.Environment.IsDevelopment())
 app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 app.MapControllers();
+
+
+// Add
+app.UseAuthorization();
+
+app.UseRateLimiter();
+
+app.MapControllers()
+   .RequireRateLimiting("ipLimiter");
+
+// ---
+
+
+
 app.Run();
 
-// Este record es solo de ejemplo, puedes eliminarlo si no lo usas
+// Este record es solo un ejemplo
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);

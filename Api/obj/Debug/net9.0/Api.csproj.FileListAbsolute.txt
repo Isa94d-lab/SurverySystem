@@ -592,3 +592,5 @@ D:/1 Usuario/Desktop/BIBI/SurverySystem/Api/obj/Debug/net9.0/ref/Api.dll
 /home/camper/Escritorio/SurverySystem-5/Api/obj/Debug/net9.0/Api.pdb
 /home/camper/Escritorio/SurverySystem-5/Api/obj/Debug/net9.0/Api.genruntimeconfig.cache
 /home/camper/Escritorio/SurverySystem-5/Api/obj/Debug/net9.0/ref/Api.dll
+/home/camper/Escritorio/SurverySystem-5/Api/bin/Debug/net9.0/AspNetCoreRateLimit.dll
+/home/camper/Escritorio/SurverySystem-5/Api/bin/Debug/net9.0/Newtonsoft.Json.dll
