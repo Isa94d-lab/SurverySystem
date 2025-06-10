@@ -6,6 +6,7 @@ using Application.DTOs.Surveys;
 using Application.DTOs.Questions;
 using Application.DTOs.Options_response;
 using Application.DTOs.Categories_catalog;
+using Application.DTOs.Sub_questions;
 
 
 
@@ -25,9 +26,12 @@ public class MappingProfiles : Profile
         CreateMap<Questions, CreateQuestionsDTO>().ReverseMap();
         CreateMap<Options_response, Options_responseDTO>().ReverseMap();
         CreateMap<Options_response, CreateOptions_responseDTO>().ReverseMap();
-        // New
         CreateMap<Categories_catalog, Categories_catalogDTO>().ReverseMap();
         CreateMap<Categories_catalog, CreateCategories_catalogDTO>().ReverseMap();
+        // Add 
+        CreateMap<Sub_questions, Sub_questionsDTO>().ReverseMap();
+        CreateMap<Sub_questions, CreateSub_questionsDTO>().ReverseMap();
+
 
 
     }
