@@ -9,6 +9,7 @@ using Application.DTOs.Categories_catalog;
 using Application.DTOs.Sub_questions;
 using Application.DTOs.Sumaryoptions;
 using Application.DTOs.Category_options;
+using Application.DTOs.Option_questions;
 
 
 namespace Api.Profiles;
@@ -33,11 +34,14 @@ public class MappingProfiles : Profile
         CreateMap<Sub_questions, CreateSub_questionsDTO>().ReverseMap();
         CreateMap<Sumaryoptions, SumaryoptionsDTO>().ReverseMap();
         CreateMap<Sumaryoptions, CreateSumaryoptionsDTO>().ReverseMap();
-
-        // Add
         CreateMap<Category_options, Category_optionsDTO>().ReverseMap();
         CreateMap<Category_options, CreateCategory_optionsDTO>().ReverseMap();
+        // Add
+        CreateMap<Option_questions, Option_questionsDTO>().ReverseMap();
+        CreateMap<Option_questions, CreateOption_questionsDTO>().ReverseMap();
+
         // ---
+
 
 
 
