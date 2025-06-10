@@ -2,6 +2,7 @@ using System;
 // New
 using System.Reflection;
 // ---
+using Api.Profiles;
 using Api.Extensions;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
@@ -16,7 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Configura los servicios
 
 // New
-builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
+builder.Services.AddAutoMapper(typeof(Api.Profiles.MappingProfiles).Assembly);
 // ---
 
 builder.Services.ConfigureCors();
