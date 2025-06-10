@@ -28,7 +28,7 @@ namespace Infrastructure.UnitOfWork
             _context = context;
         }
         
-        public ICategories_catalogRepository Categories_catalogs
+        public ICategories_catalogRepository Categories_catalog
         {
             get
             {
