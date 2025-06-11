@@ -3,12 +3,18 @@ using Application.Interfaces;
 using Domain.Entities;
 using AutoMapper;
 using Application.DTOs.Surveys;
+// New
+using Microsoft.AspNetCore.RateLimiting;
+// ---
 
 
 namespace Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    // New
+    [EnableRateLimiting("token")]
+    // ----
     public class SurveysController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;

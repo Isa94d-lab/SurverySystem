@@ -22,6 +22,13 @@ namespace Infrastructure.Data
         public DbSet<Category_options> Category_options { get; set; }
         public DbSet<Sumaryoptions> Sumaryoptions { get; set; }
 
+        // ---
+        public DbSet<User> User { get; set; }
+        public DbSet<Role> Role { get; set; }
+        public DbSet<User_role> User_role { get; set; }
+
+        // ---
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);

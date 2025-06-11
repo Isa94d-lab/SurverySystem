@@ -8,17 +8,37 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Infrastructure;
-
-// Se agrega
 using Api.Extensions;
+// New
+using Microsoft.AspNetCore.RateLimiting;
 // ---
+
+
+// New using del paquete -> dotnet add package Microsoft.AspNetCore.RateLimiting
+
+using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configura los servicios
 
-// New
+
 builder.Services.AddAutoMapper(typeof(Api.Profiles.MappingProfiles).Assembly);
+
+
+// New
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddTokenBucketLimiter("token", opt =>
+    {
+        opt.TokenLimit = 20; // capacidad máxima del balde
+        opt.TokensPerPeriod = 4; // tokens que se recargan por período
+        opt.ReplenishmentPeriod = TimeSpan.FromSeconds(10); // cada 10s
+        opt.AutoReplenishment = true; // recarga automática
+        opt.QueueLimit = 2; // máximo de peticiones en espera
+        
+    });
+});
 // ---
 
 builder.Services.ConfigureCors();
@@ -50,16 +70,16 @@ app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 app.MapControllers();
 
+// New 
+app.UseRateLimiter();
+// ---
 
-// Add
+
 app.UseAuthorization();
-
 app.UseRateLimiter();
 
 app.MapControllers()
    .RequireRateLimiting("ipLimiter");
-
-// ---
 
 
 
