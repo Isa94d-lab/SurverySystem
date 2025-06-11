@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Application.Interfaces;
 using Domain.Entities;
+using AutoMapper;
+using Application.DTOs.Questions;
 
 namespace Api.Controllers
 {
@@ -9,44 +11,55 @@ namespace Api.Controllers
     public class QuestionsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
-        public QuestionsController(IUnitOfWork unitOfWork)
+        public QuestionsController(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
+        // GET: api/Questions
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Questions>>> Get()
+        public async Task<ActionResult<IEnumerable<QuestionsDTO>>> Get()
         {
             var list = await _unitOfWork.Questions.GetAllAsync();
-            return Ok(list);
+            var listDto = _mapper.Map<IEnumerable<QuestionsDTO>>(list);
+            return Ok(listDto);
         }
 
+        // GET: api/Questions/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<Questions>> Get(int id)
+        public async Task<ActionResult<QuestionsDTO>> Get(int id)
         {
-            var item = await _unitOfWork.Questions.GetByIdAsync(id);
-            if (item == null) return NotFound();
-            return Ok(item);
+            var question = await _unitOfWork.Questions.GetByIdAsync(id);
+            if (question == null) return NotFound();
+            return Ok(_mapper.Map<QuestionsDTO>(question));
         }
 
+        // POST: api/Questions
         [HttpPost]
-        public async Task<ActionResult<Questions>> Create([FromBody] Questions entity)
+        public async Task<ActionResult<QuestionsDTO>> Create([FromBody] CreateQuestionsDTO createDto)
         {
+            var entity = _mapper.Map<Questions>(createDto);
             _unitOfWork.Questions.Add(entity);
             await _unitOfWork.SaveAsync();
-            return CreatedAtAction(nameof(Get), new { id = entity.Id }, entity);
+
+            var dto = _mapper.Map<QuestionsDTO>(entity);
+            return CreatedAtAction(nameof(Get), new { id = entity.Id }, dto);
         }
 
+        // PUT: api/Questions/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Questions entity)
+        public async Task<IActionResult> Update(int id, [FromBody] Questions question)
         {
-            if (id != entity.Id) return BadRequest();
-            _unitOfWork.Questions.Update(entity);
+            if (id != question.Id) return BadRequest();
+            _unitOfWork.Questions.Update(question);
             await _unitOfWork.SaveAsync();
             return NoContent();
         }
 
+        // DELETE: api/Questions/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

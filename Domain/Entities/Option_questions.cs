@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
@@ -18,7 +20,6 @@ namespace Domain.Entities
         public int Optionquestions_id { get; set; } 
         public Questions? Questions { get; set; }
 
-        // 🔁 Aquí está la propiedad que faltaba
         public Option_questions? Parent_option_question { get; set; }
 
         public ICollection<Option_questions>? Inverse_option_questions { get; set; }

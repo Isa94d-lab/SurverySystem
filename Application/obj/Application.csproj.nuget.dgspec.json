@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\Application.csproj": {}
+    "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\Application.csproj": {
+    "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\Application.csproj",
+        "projectPath": "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Application\\obj\\",
+        "outputPath": "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\Domain.csproj"
+              "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Domain\\Domain.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\Domain.csproj": {
+    "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\Domain.csproj",
+        "projectPath": "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\1 Usuario\\Desktop\\BIBI\\SurverySystem\\Domain\\obj\\",
+        "outputPath": "D:\\1 Usuario\\Desktop\\eRA\\SurverySystem-1\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

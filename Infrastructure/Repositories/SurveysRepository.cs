@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Domain.Entities;
 using Infrastructure.Data;
 using Application.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Infrastructure.Repositories
 {
@@ -14,12 +16,5 @@ namespace Infrastructure.Repositories
         {
             _context = context;
         }
-
-        public override async Task<Surveys> GetByIdAsync(int id)
-        {
-            return await _context.Surveys
-                .FirstOrDefaultAsync(p => p.Id == id) ?? throw new KeyNotFoundException($"Surveys with id {id} was not found.");
-        }
-
     }
 }

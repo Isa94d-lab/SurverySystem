@@ -36,7 +36,7 @@ namespace Infrastructure.Configuration
                 .WithMany(c => c.Questions)
                 .HasForeignKey(q => q.Chapter_id);
 
-            builder.HasMany(q => q.Sub_Questions)
+            builder.HasMany(q => q.Sub_questions)
                 .WithOne()
                 .HasForeignKey("Question_id");
         }
