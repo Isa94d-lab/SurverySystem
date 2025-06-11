@@ -17,5 +17,6 @@ namespace Application.Interfaces
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);
         void Update(T entity);
+        // Canges
     }
 }
