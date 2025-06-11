@@ -16,12 +16,5 @@ namespace Infrastructure.Repositories
         {
             _context = context;
         }
-
-        public override async Task<Surveys> GetByIdAsync(int id)
-        {
-            return await _context.Surveys
-                .FirstOrDefaultAsync(p => p.Id == id) ?? throw new KeyNotFoundException($"Surveys with id {id} was not found.");
-        }
-
     }
 }

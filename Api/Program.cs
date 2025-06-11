@@ -1,9 +1,6 @@
 using System;
-// New
 using System.Reflection;
-// ---
 using Api.Profiles;
-using Api.Extensions;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
