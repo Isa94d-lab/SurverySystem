@@ -67,7 +67,7 @@ app.UseHttpsRedirection();
 // Habilita el middleware global de Rate Limiting
 app.UseRateLimiter();
 
-// Habilita la autorización (aunque no haya autenticación aún, esto prepara el terreno)
+// Habilita la autorización (esto prepara el terreno)
 app.UseAuthorization();
 
 // Mapea los endpoints de los controladores y les aplica la política "ipLimiter"

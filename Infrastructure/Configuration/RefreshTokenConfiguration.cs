@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Infrastructure.Configuration
+{
+    public class RefreshTokenConfiguration : IEntityTypeConfiguration<RefreshToken>
+    {
+        public void Configure(EntityTypeBuilder<RefreshToken> builder)
+        {
+            // Aquí puedes configurar las propiedades de la entidad Marca
+            // utilizando el objeto 'builder'.
+            builder.ToTable("refresh_tokens");
+            builder.HasKey(e => e.Id); // Asumiendo que 'Id' es la clave primaria
+        }
+    }
+}
