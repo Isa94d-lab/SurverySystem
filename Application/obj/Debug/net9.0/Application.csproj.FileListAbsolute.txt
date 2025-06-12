@@ -157,3 +157,9 @@ D:/1 Usuario/Desktop/eRA/SurverySystem-1/Application/obj/Debug/net9.0/ref/Applic
 /home/camper/Escritorio/SurverySystem-6/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
 /home/camper/Escritorio/SurverySystem-6/Application/obj/Debug/net9.0/Application.csproj.CoreCompileInputs.cache
 /home/camper/Escritorio/SurverySystem-6/Application/obj/Debug/net9.0/Application.sourcelink.json
+C:\Users\Usuario\SurverySystem-1\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+C:\Users\Usuario\SurverySystem-1\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\SurverySystem-1\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\Users\Usuario\SurverySystem-1\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\Users\Usuario\SurverySystem-1\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\SurverySystem-1\Application\obj\Debug\net9.0\Application.sourcelink.json

@@ -130,3 +130,15 @@ D:/1 Usuario/Desktop/eRA/SurverySystem-1/Domain/obj/Debug/net9.0/ref/Domain.dll
 /home/camper/Escritorio/SurverySystem-6/Domain/obj/Debug/net9.0/refint/Domain.dll
 /home/camper/Escritorio/SurverySystem-6/Domain/obj/Debug/net9.0/Domain.pdb
 /home/camper/Escritorio/SurverySystem-6/Domain/obj/Debug/net9.0/ref/Domain.dll
+C:\Users\Usuario\SurverySystem-1\Domain\bin\Debug\net9.0\Domain.deps.json
+C:\Users\Usuario\SurverySystem-1\Domain\bin\Debug\net9.0\Domain.dll
+C:\Users\Usuario\SurverySystem-1\Domain\bin\Debug\net9.0\Domain.pdb
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\Domain.dll
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\refint\Domain.dll
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\Domain.pdb
+C:\Users\Usuario\SurverySystem-1\Domain\obj\Debug\net9.0\ref\Domain.dll
