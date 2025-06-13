@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Configuration
 {
@@ -18,7 +21,7 @@ namespace Infrastructure.Configuration
             .WithMany(p => p.MemberRols)
             .HasForeignKey(p => p.RolId);
 
-            builder.HasOne(p => p.UserMember)
+            builder.HasOne(p => p.Member)
             .WithMany(p => p.MemberRols)
             .HasForeignKey(p => p.MemberId);
 

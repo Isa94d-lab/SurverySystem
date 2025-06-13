@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace Application.DTOs.Auth.Register
+namespace Application.DTOs.Auth
 {
     public class RegisterDto
     {

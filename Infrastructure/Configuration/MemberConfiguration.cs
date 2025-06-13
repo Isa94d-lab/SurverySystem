@@ -2,12 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Configuration
 {
-    public class MemberConfiguration : IEntityTypeConfiguration<UserMember>
+    public class MemberConfiguration : IEntityTypeConfiguration<Member>
     {
-        builder.ToTable("members");
+        public void Configure(EntityTypeBuilder<Member> builder)
+        {
+            // Aquí puedes configurar las propiedades de la entidad Marca
+            // utilizando el objeto 'builder'.
+            builder.ToTable("members");
             builder.HasKey(e => e.Id); // Asumiendo que 'Id' es la clave primaria
             builder.Property(p => p.Id)
                     .IsRequired()
@@ -21,8 +28,9 @@ namespace Infrastructure.Configuration
                     .HasMaxLength(200);
 
             builder.HasMany(p => p.RefreshTokens)
-                    .WithOne(p => p.Users)
+                    .WithOne(p => p.Member)
                     .HasForeignKey(p => p.MemberId)
                     .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }

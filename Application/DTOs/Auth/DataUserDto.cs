@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Text.Json.Serialization;
 
-namespace Application.DTOs.Auth.DataUser
+namespace Application.DTOs.Auth
 {
     public class DataUserDto
     {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\SurverySystem-1\\Api\\Api.csproj": {}
+    "/home/camper/SurverySystem/Api/Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\SurverySystem-1\\Api\\Api.csproj": {
+    "/home/camper/SurverySystem/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem-1\\Api\\Api.csproj",
+        "projectUniqueName": "/home/camper/SurverySystem/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\SurverySystem-1\\Api\\obj\\",
+        "projectPath": "/home/camper/SurverySystem/Api/Api.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/SurverySystem/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj"
+              "/home/camper/SurverySystem/Application/Application.csproj": {
+                "projectPath": "/home/camper/SurverySystem/Application/Application.csproj"
               },
-              "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj"
+              "/home/camper/SurverySystem/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/camper/SurverySystem/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -101,21 +101,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj": {
+    "/home/camper/SurverySystem/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj",
+        "projectUniqueName": "/home/camper/SurverySystem/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\SurverySystem-1\\Application\\obj\\",
+        "projectPath": "/home/camper/SurverySystem/Application/Application.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/SurverySystem/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -127,8 +127,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj"
+              "/home/camper/SurverySystem/Domain/Domain.csproj": {
+                "projectPath": "/home/camper/SurverySystem/Domain/Domain.csproj"
               }
             }
           }
@@ -143,7 +143,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -164,21 +164,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj": {
+    "/home/camper/SurverySystem/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/camper/SurverySystem/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\obj\\",
+        "projectPath": "/home/camper/SurverySystem/Domain/Domain.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/SurverySystem/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -202,7 +202,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -223,21 +223,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj": {
+    "/home/camper/SurverySystem/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/camper/SurverySystem/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\obj\\",
+        "projectPath": "/home/camper/SurverySystem/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/SurverySystem/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -249,11 +249,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj"
+              "/home/camper/SurverySystem/Application/Application.csproj": {
+                "projectPath": "/home/camper/SurverySystem/Application/Application.csproj"
               },
-              "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj"
+              "/home/camper/SurverySystem/Domain/Domain.csproj": {
+                "projectPath": "/home/camper/SurverySystem/Domain/Domain.csproj"
               }
             }
           }
@@ -268,7 +268,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -315,7 +315,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

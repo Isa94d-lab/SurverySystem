@@ -2,15 +2,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
-namespace Application.DTOs.Auth.LoginDto
+
+namespace Application.DTOs.Auth
 {
-    public class LoginDto
+    public class AddRoleDto
     {
         [Required]
         public string? UserName { get; set; }
         [Required]
         public string? Password { get; set; }
-        
+        [Required]
+        public string? Role { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xjdkA9sSR5I=",
+  "dgSpecHash": "D8aVom61L3Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\SurverySystem-1\\Domain\\Domain.csproj",
+  "projectFilePath": "/home/camper/SurverySystem/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

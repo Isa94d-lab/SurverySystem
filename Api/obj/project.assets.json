@@ -3718,19 +3718,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "/home/camper/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\SurverySystem-1\\Api\\Api.csproj",
+      "projectUniqueName": "/home/camper/SurverySystem/Api/Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\SurverySystem-1\\Api\\obj\\",
+      "projectPath": "/home/camper/SurverySystem/Api/Api.csproj",
+      "packagesPath": "/home/camper/.nuget/packages/",
+      "outputPath": "/home/camper/SurverySystem/Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/camper/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -3742,11 +3742,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Application\\Application.csproj"
+            "/home/camper/SurverySystem/Application/Application.csproj": {
+              "projectPath": "/home/camper/SurverySystem/Application/Application.csproj"
             },
-            "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\SurverySystem-1\\Infrastructure\\Infrastructure.csproj"
+            "/home/camper/SurverySystem/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/camper/SurverySystem/Infrastructure/Infrastructure.csproj"
             }
           }
         }
@@ -3761,7 +3761,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -3817,7 +3817,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,7 +9,7 @@ namespace Domain.Entities
     {
         public int Id { get; set; } 
         public string? MemberId { get; set; }
-        public UserMember Users { get; set; }
+        public Member? Member { get; set; }
         public string? Token { get; set; }
         public DateTime Expires { get; set; }
         public bool IsExpired => DateTime.UtcNow >= Expires;

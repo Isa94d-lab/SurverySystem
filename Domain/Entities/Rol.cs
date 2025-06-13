@@ -10,6 +10,6 @@ namespace Domain.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public ICollection<MembersRols> MembersRols { get; set; } = new HashSet<MembersRols>();
+        public ICollection<MemberRols> MemberRols { get; set; } = new HashSet<MemberRols>();
     }
 }

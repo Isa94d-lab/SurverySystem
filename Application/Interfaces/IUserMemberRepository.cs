@@ -6,10 +6,10 @@ using Domain.Entities;
 
 namespace Application.Interfaces
 {
-    public interface IUserMemberRepository : IGenericRepository<UserMember>
+    public interface IMemberRepository : IGenericRepository<Member>
     {
-        Tasks<UserMember> GetByUsernameAsyn(string username);
-        Tasks<UserMember> GetByUsernameAsyn(string refreshToken);
+        Task<Member> GetByUsernameAsyn(string username);
+        Task<Member> GetByRefreshTokenAsync(string refreshToken);
 
     }
 }

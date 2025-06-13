@@ -23,9 +23,10 @@ namespace Infrastructure.Data
         public DbSet<Sumaryoptions> Sumaryoptions { get; set; }
 
         // ---
-        public DbSet<User> User { get; set; }
-        public DbSet<Role> Role { get; set; }
-        public DbSet<User_role> User_role { get; set; }
+        public DbSet<Member> Member { get; set; }
+        public DbSet<Rol> Rol { get; set; }
+        public DbSet<MemberRols> MembersRols { get; set; }
+
 
         // ---
 
