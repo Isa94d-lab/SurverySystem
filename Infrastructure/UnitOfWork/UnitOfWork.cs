@@ -18,9 +18,12 @@ namespace Infrastructure.UnitOfWork
         private IQuestionsRepository? _questions;
         private ISub_questionsRepository? _sub_questions;
         private IOption_questionsRepository? _option_questions;
+        private ISumaryoptionsRepository? _sumaryoptions;
 
         // Add 
-        private ISumaryoptionsRepository? _sumaryoptions;
+        private IUserMemberRepository? _userMember;
+        private IRolRepository? _rol;
+        private IMemberRolsRepository? _memberRols;
         // ---
 
         private readonly AppDbContext _context;
@@ -103,7 +106,7 @@ namespace Infrastructure.UnitOfWork
             }
         }
 
-         public ISub_questionsRepository Sub_questions
+        public ISub_questionsRepository Sub_questions
         {
             get
             {
@@ -127,7 +130,6 @@ namespace Infrastructure.UnitOfWork
             }
         }
 
-        // Add
         public ISumaryoptionsRepository Sumaryoptions
         {
             get
@@ -137,6 +139,44 @@ namespace Infrastructure.UnitOfWork
                     _sumaryoptions = new SumaryoptionsRepository(_context);
                 }
                 return _sumaryoptions;
+            }
+        }
+
+
+        // Add
+
+        public IUserMemberRepository UserMember
+        {
+            get
+            {
+                if (_userMember == null)
+                {
+                    _userMember = new UserMemberRepository(_context);
+                }
+                return _userMember;
+            }
+        }
+        public IRolRepository Rol
+        {
+            get
+            {
+                if (_rol == null)
+                {
+                    _rol = new RolRepository(_context);
+                }
+                return _rol;
+            }
+        }
+
+        public IMemberRolsRepository MemberRol
+        {
+            get
+            {
+                if (_memberRols == null)
+                {
+                    _memberRols = new MemberRolsRepository(_context);
+                }
+                return _memberRols;
             }
         }
         // ----

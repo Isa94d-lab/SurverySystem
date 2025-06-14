@@ -21,7 +21,7 @@ namespace Infrastructure.Configuration
             .WithMany(p => p.MemberRols)
             .HasForeignKey(p => p.RolId);
 
-            builder.HasOne(p => p.Member)
+            builder.HasOne(p => p.UserMember)
             .WithMany(p => p.MemberRols)
             .HasForeignKey(p => p.MemberId);
 

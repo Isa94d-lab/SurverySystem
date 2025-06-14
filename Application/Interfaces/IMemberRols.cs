@@ -6,7 +6,7 @@ using Domain.Entities;
 
 namespace Application.Interfaces
 {
-    public interface IMemberRols : IGenericRepository<MemberRols>
+    public interface IMemberRolsRepository : IGenericRepository<MemberRols>
     {
         
     }

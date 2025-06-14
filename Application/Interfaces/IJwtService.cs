@@ -8,6 +8,6 @@ namespace Application.Interfaces
 {
     public interface IJwtService
     {
-        string GenerateToken(Member member, IEnumerable<string> roles);
+        string GenerateToken(UserMember usermember, IEnumerable<string> roles);
     }
 }

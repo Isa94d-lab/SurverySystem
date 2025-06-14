@@ -15,9 +15,11 @@ public interface IUnitOfWork
     IQuestionsRepository Questions { get; }
     ISub_questionsRepository Sub_questions { get; }
     IOption_questionsRepository Option_questions { get; }
-    
+     ISumaryoptionsRepository Sumaryoptions { get; }
     // Add
-    ISumaryoptionsRepository Sumaryoptions { get; }
+    IUserMemberRepository UserMember { get; }
+    IRolRepository Rol { get; }
+    IMemberRolsRepository MemberRols { get; }
     // ---
 
     Task<int> SaveAsync();

@@ -6,7 +6,7 @@ using Domain.Entities;
 
 namespace Domain.Entities
 {
-    public class Member : BaseEntity
+    public class UserMember : BaseEntity
     {
         public int Id { get; set; }
         public string? Name { get; set; }
